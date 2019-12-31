@@ -1,0 +1,19 @@
+
+.contenedorFila{
+    width: 80%;
+    margin-left: 10%;
+    background-color: black;
+    height: 300px;
+}
+
+.imagenes{
+    width: 31%;
+    margin-left: 2%;
+    height: 90%;
+    padding-top: 1.5%;
+}
+
+.textoCentrado{
+    text-align: center;
+}
+

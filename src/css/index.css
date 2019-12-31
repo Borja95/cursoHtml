@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+:root{
+/*Colores*/
+    --greenColor: #7acc2d;
+    --whiteColor: white;
+    --blackColor: black;
+/*espaciado*/
+--espaciado: 10px;
+/*box shadow*/
+--box: 0 0 1px #c1bcbc;
+
+}
+
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.moduloPago .data{
+   margin-top: var(--espaciado);
+   border: 1px solid var(--blackColor);
+   box-shadow: 1px;
+   width: 100%;
+   height: 30px;
+   box-sizing: border-box;
+}
+
+.moduloPago .btnQuiero{
+    margin-top: 10px;
+}
+
+label{
+    font-size: 10px;
+}
+
+/*Seccion nav*/
+
+nav {
+  padding: var(--espaciado);
+  background-color: var(--greenColor);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  /* justify-content: center;*/
+}
+
+
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: var(--blackColor);
+    padding-left: 20px;
+    
+}
+
+nav ul li a:hover{
+    color: var(--whiteColor);
+}
+
+/*Seccion body*/
+
+.mainSection{
+    padding: 15%;
+}
+
+.products{
+    background-image: url("../img/curve.png");
+    max-height: 50px;
+    padding: 20%;
+    background-size: cover;
+    background-position: center top;
+    display: flex;
+}
+
+.product{
+    padding: var(--espaciado);
+    margin-top: -200px;
+}
+
+.product .content{
+    background-color: var(--whiteColor);
+    padding: var(--espaciado);
+    box-shadow: var(--box);
+
+}
+
+.imgContent{
+    text-align: center;
+}
+
+.btnQuiero{
+    background-color: var(--greenColor);
+    font-size: 17px;
+    padding: var(--espaciado);
+    width: 100%;
+    color: var(--whiteColor);
+    border-style: none;
+    cursor: pointer;
+}
+
+.btnQuiero:hover{
+    background-color: #70b330;
+}
+
+.descripciones{
+    padding: 5%;
+    display: flex;
+}
+
+.descripcion .content{
+padding-top: 10%;
+}
+
+.descripcion{
+    text-align: center;
+    padding: 0px 0px 0px 5%;
+}
+
+
+
+
+
+.personasContent{
+    
+    padding-left: 11%;
+    padding-top: 5%;
+    padding-right: 15%;
+    padding-bottom: 5%;
+}
+
+.tituloPersonas{
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.personas{
+    display: flex;
+    padding-right: 10%;
+   
+    width: 40%;
+}
+
+
+.persona .content{
+    box-shadow: var(--box);
+}
+
+.persona{
+    width: 239px;
+    padding: 5% 5% 10% 6%;  
+}
+
+.textoPersona{
+    padding: 0px 0px 3% 3%;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    padding: var(--espaciado);
+    width: 100%;
+}
+
+.terminos{
+padding-left: 4%;
+    
+       
+}
+
+.email{
+    padding-right: 4%;
+    float: right;
+    
+    
+}
+
+
+.moduloPago{
+    box-shadow: var(--box);
+    padding: var(--espaciado);
+    background-color: var(--whiteColor);
+}
+
+.moduloPagoImagen{
+    max-width: 150px;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}

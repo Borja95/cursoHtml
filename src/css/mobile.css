@@ -1,0 +1,39 @@
+@media(max-width: 600px){
+
+.products{
+    margin-top: auto;
+    display: inline-table;
+}
+
+.product{
+    display: inline;  
+    max-height: auto;
+}
+
+.descripciones{
+    display: inherit;
+}
+
+.personas{
+    display: inherit;
+    padding-top: 8%;
+}
+
+.persona{
+    padding-left: 20%;
+    
+}
+
+nav{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+}
